@@ -1,0 +1,25 @@
+<html>
+<head></head>
+<body>
+   <form method="post" action=""><br>
+   Ingrese el nombre del empleado 1:<br>
+        <input type="text" name="Nombre"><br>
+   Ingrese el Apellido del empleado 1:<br>
+        <input type="text" name="Apellido"><br>
+        <input type="submit" value="Ingresar1"><br>
+        <input type="submit" value="Ingresar2"><br>
+</body>
+
+<?php
+$Nombre = $_POST['Nombre'];
+$Apellido = $_POST['Apellido'];
+
+$n1 = $Nombre;
+$a1 = $Apellido;
+
+echo 'El nombre del empleado 1 es: ' . $n1, '<br />';
+echo 'El apellido del empleado 1 es: ' . $a1, '<br />';
+
+
+?>
+</html>
